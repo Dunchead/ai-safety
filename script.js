@@ -193,7 +193,7 @@ const risks = {
         },
         {
             title: "Human subjugation",
-            risks: `<p>Human dominance in the world is largely due to our intelligence.  Once AI becomes capable of self-improvement and building AI systems itself, it will lead to an 'intelligence explosion' and 'superintelligent' AIs.  It seems quite probable that these superintelligences would then become the dominant force in the world, and humans would be Linksated.</p>
+            risks: `<p>Human dominance in the world is largely due to our intelligence.  Once AI becomes capable of self-improvement and building AI systems itself, it will lead to an 'intelligence explosion' and 'superintelligent' AIs.  It seems quite probable that these superintelligences would then become the dominant force in the world, and humans would be subjugated.</p>
                 <p><b>Best case:</b> The superintelligent AIs will be benevolent and perfectly aligned with human values and goals, creating a better world.  Even then, we will have lost the power of self-determination and will be beholden to the good will of the superintelligences.</p>
                 <p><b>Worst case:</b> The superintelligent AIs quickly decide that the world is better off without humans, and wiping us out is a trivial matter.</p>`,
             solutions: ``,

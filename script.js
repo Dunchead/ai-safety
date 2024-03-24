@@ -392,11 +392,11 @@ function reset_background_scroll() {
 
 function load_event_handlers() {
     $("#risks-btn").click(function () {
-        window.location = "risks.html";
+        window.location = "/ai-safety/risks";
     });
 
     $("#challenges-btn").click(function () {
-        window.location = "challenges.html";
+        window.location = "/ai-safety/challenges";
     });
 
     $(".box").click(function () {

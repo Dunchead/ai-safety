@@ -24,18 +24,18 @@ Bugfixes/improvements for the website itself are also welcome.
 
 Contributions can be made as pull requests (most content is in `script.js`) or posts in the discusssion forum.
 
-> ### Contributor guidelines
->
-> This is a rough map, not an encyclopedia.
->
-> The goal is to create a clear, high-level outline of the major issues with links to key resources for further reading; we're **not** trying to compile a detailed or comprehensive list. Too much information is part of the problem we're trying to solve.
->
-> **Yes please:**<br>
-> ✅ Key, concise points not already covered<br>
-> ✅ Resources that are especially clear, original or significant<br>
-> ✅ Restructuring that improves the content while maintaining the clarity of design<br>
->
-> **No thanks:**<br>
-> ❌ Verbose or repetitive text<br>
-> ❌ Links that do not offer much additional value<br>
-> ❌ Non-essential restructuring of the design/content<br>
+### Contributor guidelines
+
+This is a high-level map, not an encyclopedia.
+
+The goal is to create a clear outline of the major issues with links to only the most useful resources for further reading; we're **not** trying to compile a detailed or comprehensive list. Too much information is part of the problem we're trying to solve.
+
+**Yes please:**<br>
+✅ Key, concise points not already covered<br>
+✅ Resources that are especially clear, original or significant<br>
+✅ Restructuring that improves the content while maintaining the clarity of design<br>
+
+**No thanks:**<br>
+❌ Verbose or repetitive text<br>
+❌ Links that do not offer much additional value<br>
+❌ Non-essential restructuring of the design/content

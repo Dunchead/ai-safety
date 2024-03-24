@@ -392,7 +392,7 @@ footer {
     nav {
         display: none;
         position: fixed;
-        height: calc(100% - 125px);
+        height: calc(100% - 124px);
         width: 100%;
         background-color: rgba(0, 0, 0, 1);
         background: linear-gradient(
@@ -400,8 +400,9 @@ footer {
             rgba(0, 0, 0, 1),
             rgba(0, 0, 0, 0.5)
         );
-        top: 125px;
+        top: 124px;
         z-index: 100;
+        border: 0.5px solid white;
     }
 
     nav ul li {

@@ -412,6 +412,11 @@ footer {
         font-size: 24px;
         line-height: 50px;
     }
+
+    .box {
+        width: calc(100% - 20px);
+        margin-left: 10px;
+    }
 }
 
 @media only screen and (min-width: 601px) {

@@ -1,6 +1,8 @@
 # AI Safety Project
 
-The AI Safety Project aims to map landscape of AI risk and understand the challenges we must overcome as a global community.
+### Project site: [https://dunchead.github.io/ai-safety/](https://dunchead.github.io/ai-safety/)
+
+The [AI Safety Project](https://dunchead.github.io/ai-safety/) aims to map landscape of AI risk and understand the challenges we must overcome as a global community.
 
 The field of AI development is moving at such a pace that there's a real chance we may fall victim to risks before we fully understand them, or are even aware of them. This is probably already happening.
 

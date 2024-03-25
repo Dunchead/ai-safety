@@ -24,7 +24,10 @@ Feel free to submit your own ideas.
 
 Bugfixes/improvements for the website itself are also welcome.
 
-Contributions can be made as pull requests (most content is in `script.js`) or posts in the discusssion forum.
+Contributions can be made in two ways:
+
+1. As posts in the discusssion forum under **'AI risks, challenges and solutions'**
+2. As pull requests (most content is in `script.js`)
 
 ### Contributor guidelines
 

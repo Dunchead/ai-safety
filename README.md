@@ -33,11 +33,11 @@ This is a high-level map, not an encyclopedia.
 The goal is to create a clear outline of the major issues with links to only the most useful resources for further reading; we're **not** trying to compile a detailed or comprehensive list. Too much information is part of the problem we're trying to solve.
 
 **Yes please:**<br>
-✅ Key, concise points not already covered<br>
-✅ Resources that are especially clear, original or significant<br>
+✅ Key points not already covered, concisely written<br>
+✅ Links/resources that are especially clear, original or significant<br>
 ✅ Restructuring that improves the content while maintaining the clarity of design<br>
 
 **No thanks:**<br>
 ❌ Verbose or repetitive text<br>
-❌ Links that do not offer much additional value<br>
+❌ Links/resources that do not offer much additional value<br>
 ❌ Non-essential restructuring of the design/content

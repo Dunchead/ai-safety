@@ -12,9 +12,9 @@ Community-driven initiatives are essential to keep up with this rapidly evolving
 -   Share key resources and potential solutions
 -   Provide a space for community collaboration that is not driven by economic incentives
 
-## Contributions welcome
+## Please contribute!
 
-Contributions are welcome for any of the following:
+This is a collaborative project and a work in progress. We encourage contributions for any of the following:
 
 -   Additional risks/challenges
 -   Suggested solutions

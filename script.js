@@ -229,6 +229,7 @@ const challenges = {
             challenges: `<p>Such a broad and varied risk landscape requires a combination of technical, legislative and socio-cultural approaches to mitigation.</p>
                 <p>A combination of tools, systems, platforms, protocols and frameworks will need to be employed, but very few of these currently exist, are in use, or are proven to be effective.</p>`,
             solutions: `<ul>
+                <li><a href="https://www.gov.uk/government/publications/emerging-processes-for-frontier-ai-safety" target="_blank"><b>Emerging processes for frontier AI safety</b></a> is a UK Government policy paper outlining a range of safety measures being taken by developers of frontier AI systems</li>
                 <li><a href="https://www.neelnanda.io/mechanistic-interpretability/quickstart" target="_blank"><b>Mechanistic interpretability</b></a> is an approach to building provably safe AI systems</li>
                 <li>The <b>AI Safety Project</b> is an attempt to share possible solutions</li>
                 <li>More sophisticated, open, global, community-driven platforms will also be needed to share risk mitigation techniques and build robust standards</li>

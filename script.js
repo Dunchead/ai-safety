@@ -335,6 +335,7 @@ const challenges = {
                 <li><b>Privacy</b> - training datasets may contain sensitive data and centralise this on servers making it vulnerable to theft or discovery by querying the model</li>
                 </ul>`,
             solutions: `<ul>
+                <li><a href="https://atlas.mitre.org/matrices/ATLAS" target="_blank"><b>Mitre ATLAS</b></a> (Adversarial Threat Landscape for Artificial-Intelligence Systems) is a living knowledge base of AI adversary tactics and techniques</li>
                 <li><b>Red-teaming / adversarial training</b> is needed to build robust and secure systems</li>
                 <li><b>Federated learning systems such as <a href="https://github.com/OpenMined/PySyft" target="_blank">PySyft</a></b> take a decentralised approach to AI training that reduces risks to privacy</li>
                 </ul>`,

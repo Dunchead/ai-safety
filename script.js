@@ -41,7 +41,10 @@ const risks = {
                 <li>The use of AI in gene editing presents similar concerns</li>
                 </ul>
                 <p><b>Future risk:</b> When AI systems can do all of the above without human intervention, the risk goes off the scale.</p>`,
-            solutions: `<ul>
+            solutions: `<p>The <a href="https://www.wmdp.ai/" target="_blank"><b>Weapons of Mass Destruction Proxy (WMDP) benchmark</b></a> from the Centre for AI Safety is a dataset of 4,157 multiple-choice questions surrounding hazardous knowledge in biosecurity, cybersecurity, and chemical security.  WMDP serves as both a proxy evaluation for hazardous knowledge in large language models (LLMs) and a benchmark for unlearning methods to remove such knowledge.
+            </p>
+                <p>General considerations:</p>
+                <ul>
                 <li>Prevent models from being trained on relevant data</li>
                 <li>Robust guardrails in models to prevent output of dangerous formulae/information</li>
                 <li>Monitor user interactions for suspicious prompts</li>

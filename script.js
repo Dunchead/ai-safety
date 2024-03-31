@@ -224,6 +224,7 @@ const challenges = {
                 <p>We also need to bear in mind that the evolution of the technology is rapid, accelerating and unpredictable - and therefore so is the risk landscape.</p>`,
             solutions: `<ul>
                 <li>The <b>AI Safety Project</b> is an attempt to help build understanding of the risk landscape</li>
+                <li><a href="https://www.aitracker.org/" target="_blank"><b>AI Tracker</b></a> is an effort to monitor cutting-edge AI developments in real time, to help researchers and policy specialists better understand the AI risk landscape.</li>
                 <li>More sophisticated, open, global, community-driven platforms will also be needed to share information about the development, deployment and potential risks of AI systems</li>
                 </ul>`,
         },
@@ -233,6 +234,7 @@ const challenges = {
                 <p>A combination of tools, systems, platforms, protocols and frameworks will need to be employed, but very few of these currently exist, are in use, or are proven to be effective.</p>`,
             solutions: `<ul>
                 <li><a href="https://www.gov.uk/government/publications/emerging-processes-for-frontier-ai-safety" target="_blank"><b>Emerging processes for frontier AI safety</b></a> is a UK Government policy paper outlining a range of safety measures being taken by developers of frontier AI systems</li>
+                <li>This <a href="https://www.gladstone.ai/action-plan" target="_blank"><b>AI Action Plan</b></a>, commissioned by the US State Department, is designed to mitigate catastrophic risk from weaponisation and loss of control of advanced AI systems</li>
                 <li><a href="https://www.neelnanda.io/mechanistic-interpretability/quickstart" target="_blank"><b>Mechanistic interpretability</b></a> is an approach to building provably safe AI systems</li>
                 <li>The <b>AI Safety Project</b> is an attempt to share possible solutions</li>
                 <li>More sophisticated, open, global, community-driven platforms will also be needed to share risk mitigation techniques and build robust standards</li>

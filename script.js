@@ -87,7 +87,7 @@ const risks = {
         {
             title: "Unemployment / inequality",
             risks: `<p>It is clear that AI will lead to job displacement, but there is little consensus on exactly how much.  A <a href="https://www.oxfordmartin.ox.ac.uk/downloads/academic/The_Future_of_Employment.pdf">seminal 2013 study</a> said that potentially half of all jobs in the US could be at risk, though did not even include creative professions that are already experiencing job loss due to AI.  More recent studies in the UK have estimated anything from 7% to 30%.</p>
-                <p>Job dislacement caused by AI is more concerning than historical technological unemployment because of the probability of increasing net job losses.  There may be new jobs created in the short term, but as AI capabilities increase these may also quickly be lost.  This presents significant risk for the very foundations of global society.</p>
+                <p>Job displacement caused by AI is more concerning than historical technological unemployment because of the probability of increasing net job losses.  There may be new jobs created in the short term, but as AI capabilities increase these may also quickly be lost.  This presents significant risk for the very foundations of global society.</p>
                 <h4>Links</h4>
                 <p><a href="https://assets.publishing.service.gov.uk/media/615d9a1ad3bf7f55fa92694a/impact-of-ai-on-jobs.pdf" target="_blank"><b>The Potential Impact of Artificial Intelligence on UK Employment and the Demand for Skills</b> - Report by PwC for the Department for Business, Energy and Industrial Strategy</a></p>`,
             solutions: `<ul>

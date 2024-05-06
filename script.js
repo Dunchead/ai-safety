@@ -223,6 +223,8 @@ const challenges = {
                 </ul>
                 <p>We also need to bear in mind that the evolution of the technology is rapid, accelerating and unpredictable - and therefore so is the risk landscape.</p>`,
             solutions: `<ul>
+                <li><a href="https://aisafetyfundamentals.com/" target="_blank"><b>AI Safety Fundamentals</b></a> offer courses on AI alignment and governance, designed by AI safety experts</li>
+                <li>The <a href="https://www.alignmentforum.org/" target="_blank"><b>AI Alignment Forum</b></a> and <a href="https://www.lesswrong.com/" target="_blank"><b>LessWrong.org</b></a> are online hubs for discussion around AI safety</li>
                 <li>The <b>AI Safety Project</b> is an attempt to help build understanding of the risk landscape</li>
                 <li><a href="https://www.aitracker.org/" target="_blank"><b>AI Tracker</b></a> is an effort to monitor cutting-edge AI developments in real time, to help researchers and policy specialists better understand the AI risk landscape.</li>
                 <li>More sophisticated, open, global, community-driven platforms will also be needed to share information about the development, deployment and potential risks of AI systems</li>

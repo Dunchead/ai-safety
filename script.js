@@ -14,7 +14,7 @@ const risks = {
                 <p>Autonomous weapons are particularly subject to the "arms race" dynamics and coordination problems that define the landscape of AI risk: unless everyone is prevented from developing autonomous weapons, everyone feels compelled to do so as quickly as possible, even if it will lead to potential disaster for everyone.</p>
                 <h4>Links</h4>
                 <p><a href="https://autonomousweapons.org/" target="_blank">AutonomousWeapons.org - Future of Life Institute project</a></p>`,
-            solutions: `<p>The <a href="https://www.un.org/sg/en/content/sg/note-correspondents/2023-10-05/note-correspondents-joint-call-the-united-nations-secretary-general-and-the-president-of-the-international-committee-of-the-red-cross-for-states-establish-new" target="_blank">United Nations has called on world leaders</a> to negotiate a legally binding agreement restricting the use of autonomous weapons by 2026.  The <a href="https://en.wikipedia.org/wiki/Chemical_Weapons_Convention" target="_blank">Chemical Weapons Convention</a> and the <a href="https://en.wikipedia.org/wiki/Treaty_on_the_Non-Proliferation_of_Nuclear_Weapons" target="_blank">Treaty on the Non-Proliferation of Nuclear Weapons</a> are successful examples of similar international agreements.</p>
+            solutions: `<p>The <a href="https://www.un.org/sg/en/content/sg/note-correspondents/2023-10-05/note-correspondents-joint-call-the-united-nations-secretary-general-and-the-president-of-the-international-committee-of-the-red-cross-for-states-establish-new" target="_blank">United Nations has called on world leaders</a> to negotiate a legally binding agreement restricting the use of autonomous weapons by 2026. In Dec 2024, 166 countries voted in favor of a UN General Assembly resolution creating a forum to address autonomous weapons and urging treaty negotiations.  The <a href="https://en.wikipedia.org/wiki/Chemical_Weapons_Convention" target="_blank">Chemical Weapons Convention</a> and the <a href="https://en.wikipedia.org/wiki/Treaty_on_the_Non-Proliferation_of_Nuclear_Weapons" target="_blank">Treaty on the Non-Proliferation of Nuclear Weapons</a> are successful examples of similar international agreements.</p>
                 <h4>Links</h4>
                 <p><a href="https://automatedresearch.org/state-positions/?_state_position_negotiation=yes" target="_blank">State positions on negotiating the agreement</a></p>`,
         },
@@ -29,8 +29,11 @@ const risks = {
                 <h4>Links</h4>
                 <p><a href="https://unidir.org/wp-content/uploads/2023/10/UNIDIR_AI-international-security_understanding_risks_paving_the_path_for_confidence_building_measures.pdf" target="_blank"><b>AI and International Security</b> - United Nations Institute for Disarmament Research</a></p>
                 <p><a href="https://cepa.org/article/ukraines-secret-weapon-artificial-intelligence/" target="_blank"><b>Ukraine's Secret Weapon - Artificial Intelligence</b> - Center for European Policy Analysis</a></p>`,
-            solutions: `<p>The ICRC urges a <a href="https://international-review.icrc.org/articles/ai-and-machine-learning-in-armed-conflict-a-human-centred-approach-913" target="_blank">human-centered approach</a> to the development and use of AI in places affected by conflict:</p>
-                <p><i>From our perspective, conversations around military uses of AI and machine learning, and any additional rules, regulations or limits that are developed, need to reflect and strengthen the existing obligations under international law, in particular international humanitarian law.</i></p>`,
+            solutions: `<ul>
+                <li><a href="https://international-review.icrc.org/articles/ai-and-machine-learning-in-armed-conflict-a-human-centred-approach-913" target="_blank">ICRC (Int'l Review)</a> calls for a human-centered approach, ensuring AI in warfare complies with international humanitarian law.</li>
+                <li><a href="https://www.nato.int/cps/en/natohq/official_texts_227237.htm" target="_blank">NATO (2024 AI Strategy)</a> endorses six Principles of Responsible Use (lawfulness, accountability, reliability, etc.) for allied military AI.</li>
+                <li><a href="https://www.defense.gov/News/News-Stories/Article/Article/2094085/dod-adopts-5-principles-of-artificial-intelligence-ethics/" target="_blank">U.S. DoD (2020)</a> formalized five AI ethics principles (responsible, equitable, traceable, reliable, governable) to guide military AI development.</li>
+                </ul>`,
         },
         {
             title: "Biotech / nanotech",
@@ -40,7 +43,7 @@ const risks = {
                 <li>AI could also accelerate nanotech research, opening up a whole new field of poorly understood risk</li>
                 <li>The use of AI in gene editing presents similar concerns</li>
                 </ul>
-                <p><b>Future risk:</b> When AI systems can do all of the above without human intervention, the risk goes off the scale.</p>`,
+                <p><b>Future risk:</b> When AI systems can do all of the above without human intervention, the risk goes off the scale.  Researchers highlight that advanced AI could enable the recreation of extinct viruses or the creation of novel pathogens, both posing extreme pandemic risks.</p>`,
             solutions: `<p>The <a href="https://www.wmdp.ai/" target="_blank"><b>Weapons of Mass Destruction Proxy (WMDP) benchmark</b></a> from the Centre for AI Safety is a dataset of 4,157 multiple-choice questions surrounding hazardous knowledge in biosecurity, cybersecurity, and chemical security.  WMDP serves as both a proxy evaluation for hazardous knowledge in large language models (LLMs) and a benchmark for unlearning methods to remove such knowledge.
             </p>
                 <p>General considerations:</p>
@@ -76,11 +79,17 @@ const risks = {
                 <ul>
                 <li>Trading bots causing repeated, unrecoverable "flash crashes"</li>
                 <li>AI designing incomprehensible financial instruments that indirectly lead to financial crisis</li>
+                <li>Widespread use of similar AI models could amplify market stress: common strategies increase correlation and exacerbate crashes</li>
+                <li>AI-enabled market manipulation and fraud (e.g. personalized disinformation campaigns) introduce new financial instability</li>
                 <li>Use of AI in economic policy decisions that have misaligned or unexpected consequences</li>
                 </ul>
                 <h4>Links</h4>
-                <p><a href="https://www.imf.org/en/Publications/fintech-notes/Issues/2023/08/18/Generative-Artificial-Intelligence-in-Finance-Risk-Considerations-537570" target="_blank"><b>Generative Artificial Intelligence in Finance: Risk Considerations</b> - International Monetary Fund</a></p>`,
-            solutions: ``,
+                <p><a href="https://www.imf.org/en/Publications/fintech-notes/Issues/2023/08/18/Generative-Artificial-Intelligence-in-Finance-Risk-Considerations-537570" target="_blank"><b>Generative Artificial Intelligence in Finance: Risk Considerations</b> - IMF</a></p>`,
+            solutions: `<ul>
+                <li>Circuit breakers or AI "kill-switches" to pause algorithmic trading during extreme market moves</li>
+                <li>Enhanced monitoring: regulators should collect more data on AI deployment and conduct stress tests (per FSB recommendations)</li>
+                <li>Encourage diversity of trading algorithms and robust risk management to avoid homogeneous market behavior</li>
+                </ul>`,
         },
     ],
     disruption: [
@@ -89,25 +98,31 @@ const risks = {
             risks: `<p>It is clear that AI will lead to job displacement, but there is little consensus on exactly how much.  A <a href="https://www.oxfordmartin.ox.ac.uk/downloads/academic/The_Future_of_Employment.pdf">seminal 2013 study</a> said that potentially half of all jobs in the US could be at risk, though did not even include creative professions that are already experiencing job loss due to AI.  More recent studies in the UK have estimated anything from 7% to 30%.</p>
                 <p>Job displacement caused by AI is more concerning than historical technological unemployment because of the probability of increasing net job losses.  There may be new jobs created in the short term, but as AI capabilities increase these may also quickly be lost.  This presents significant risk for the very foundations of global society.</p>
                 <h4>Links</h4>
-                <p><a href="https://assets.publishing.service.gov.uk/media/615d9a1ad3bf7f55fa92694a/impact-of-ai-on-jobs.pdf" target="_blank"><b>The Potential Impact of Artificial Intelligence on UK Employment and the Demand for Skills</b> - Report by PwC for the Department for Business, Energy and Industrial Strategy</a></p>`,
+                <p><a href="https://assets.publishing.service.gov.uk/media/615d9a1ad3bf7f55fa92694a/impact-of-ai-on-jobs.pdf" target="_blank"><b>The Potential Impact of Artificial Intelligence on UK Employment and the Demand for Skills</b> - PwC (2023)</a></p>
+                <p><a href="https://www.pwc.com/gx/en/issues/artificial-intelligence/publications/ai-jobs-barometer.html" target="_blank"><b>The Fearless Future: 2025 Global AI Jobs Barometer</b> - PwC (June 2025)</a></p>`,
             solutions: `<ul>
-                <li>New mechanisms for equitable resdistribution of the wealth created by automation - e.g. a global Universal Basic Income, such as <a href="https://worldcoin.org/" target="_blank">Open AI's Worldcoin</a></li>
-                <li>A new vision for a global society that will no longer be structured around human economic activity</li>
+                <li>Explore policies to equitably share AI-driven productivity gains, such as universal basic income or "robot taxes"</li>
+                <li>Invest in education, reskilling and job creation programs to help workers transition to new roles</li>
+                <li>Re-envision work and social purpose in a future where traditional jobs are less central to identity</li>
                 </ul>`,
         },
         {
             title: "Crime",
-            risks: `<p>While the potential for large-scale catastrophic risk from AI being used in cyber attacks is real, it is already being employed to cause real harm for individuals and organisations:</p>
+            risks: `<p>Crime is already being transformed by AI.  Potential harms include:</p>
                 <ul>
                 <li><b>Scams</b> - Audio/visual deepfakes are used for impersonation in scams; LLMs can generate convincing scripts</li>
                 <li><b>Deepfake pornography</b> - Deepfake pornography based upon real people can be created for profit/blackmail</li>
                 <li><b>Information for criminal activity</b> - LLMs can assist in fraud, or provide information that can be used for criminal/terrorist activity (e.g. bomb-making recipes)</li>
+                <li><b>Automated cybercrime</b> – AI-driven hacking, ransomware and identity theft at scale</li>
+                <li><b>Smart fraud</b> – highly personalized phishing and investment scams</li>
+                <li><b>Organized crime</b> – Coordination of illicit networks with AI tools</li>
                 </ul>`,
             solutions: `<p>Despite existing legal penalties for engaging in these activities, further measures will be needed to counter the increased threat introduced by AI:</p>
                 <ul>
                 <li><b>Raise awareness</b> of growing AI capabilities and potential for use in scams</li>
                 <li><b>Implement guardrails</b> to prevent output of scripts designed for manipulation / social engineering</li>
                 <li><b>Monitor user interactions</b> for suspicious prompts</li>
+                <li>Use AI-powered defenses (anomaly detection, threat hunting) to counter AI-driven crime</li>
                 </ul>`,
         },
         {
@@ -146,6 +161,10 @@ const risks = {
                 </ul>`,
             solutions: `<ul>
                 <li><a href="https://www.tensorflow.org/tfx/guide/fairness_indicators" target="_blank"><b>Fairness Indicators</b></a> (part of Google's Tensor Flow AI framework) can help ensure fairness in a dataset</li>
+                <li>Implement robust bias testing and mitigation techniques</li>
+                <li>Ensure diverse representation in AI development teams</li>
+                <li>Establish clear guidelines for responsible AI deployment</li>
+                <li>Regularly audit AI systems for fairness and bias</li>
                 </ul>`,
         },
         {
@@ -158,7 +177,14 @@ const risks = {
                 <li><b>Censorship</b> - Many authoritarian regimes are already incorporating AI into their censorship mechanisms, and requiring platforms to do so by law</li>
                 </ul>`,
             solutions: `<p>The citizens of any nation are vulnerable to government misuse of AI, but possible solutions will vary from country to country.</p>
-                <p><a href="https://www.amnesty.org/en/latest/campaigns/2024/01/the-urgent-but-difficult-task-of-regulating-artificial-intelligence" target="_blank">Amnesty International has emphasised</a> that the US, UK and EU should prohibit the export of AI systems to countries where they could be used to harm the human rights of marginalised groups.</p>`,
+                <p><a href="https://www.amnesty.org/en/latest/campaigns/2024/01/the-urgent-but-difficult-task-of-regulating-artificial-intelligence" target="_blank">Amnesty International has emphasised</a> that the US, UK and EU should prohibit the export of AI systems to countries where they could be used to harm the human rights of marginalised groups.</p>
+                <p>In general, we must:</p>
+                <ul>
+                <li>Establish strong legal frameworks for AI governance</li>
+                <li>Implement transparency and oversight mechanisms</li>
+                <li>Protect civil liberties and human rights</li>
+                <li>Promote international cooperation on AI governance</li>
+                </ul>`,
         },
     ],
     erosion: [
@@ -176,14 +202,24 @@ const risks = {
                 <p>AI system designers will attempt to imitate these things, but unless they create actual clones of human beings, the "uncanny valley" effect may mean that attempts are ultimately counter-productive.</p>
                 <p>We will lose our vital connection with other beings who are the same as us, who share the same emotions, values and consciousness.</p>
                 <p>Human relationships are foundational to our civilisation.  When we lose one, we lose the other.</p>`,
-            solutions: ``,
+            solutions: `<p>Experts warn that AI companions can undermine human bonds if left unchecked. The American Psychological Association cautions that without safeguards, adolescents can develop “unhealthy and even dangerous” attachments to chatbots. To prevent this, stakeholders are proposing measures that preserve genuine human connection. </p>
+                <ul>
+                <li><strong>Design AI with boundaries and human oversight:</strong> Systems should clearly disclose they are not human and prevent emotional manipulation. For example, the APA recommends ensuring “healthy boundaries with simulated human relationships” by building in age-appropriate defaults, privacy settings and mandatory disclaimers. Developers should follow ethical guidelines prioritizing user wellbeing, so AI companions do not exploit vulnerabilities or replace human care.</li>
+                <li><strong>Emphasize human–AI collaboration:</strong> Treat AI as an assistive tool, not a replacement for people. Experts envision AI freeing workers from mundane tasks so humans can do more meaningful work. In practice, organizations can retrain employees (via digital bootcamps or education programs) to use AI tools effectively, allowing people to focus on decision-making, creativity and empathy. This preserves jobs and human autonomy even as technology advances.</li>
+                <li><strong>Promote education and community programs:</strong> Integrate AI literacy and social-emotional learning into schools and communities. International efforts (e.g. the EU/OECD AI Literacy Framework) aim to teach citizens how AI works and its limits. Governments can fund initiatives like Finland’s free “Elements of AI” course, which demystifies AI for all adults. Simultaneously, community centers and social services can pair human support with technology (for example, supervised social robots in eldercare) to strengthen, rather than replace, human contact.</li>
+                </ul>`,
         },
         {
             title: "Disconnection from reality",
             risks: `<p>As our environment is increasingly populated by AI-generated content and information, which is not grounded in reality itself but in the AI's 'model' of it, we become increasingly disconnected from reality.</p>
                 <p>The risk is that we gradually lose our ability to discern what is real/true from what is false, or that which has real value from that which has illusory value.</p>
                 <p>This may be compounded by 'model collapse', where an AI learns from its own generated content, leading to a vicious cycle of gradually degraded information, drifting further and further away from reality.</p>`,
-            solutions: ``,
+            solutions: `<p>Heavy reliance on AI-generated content risks creating an alternate reality bubble or rampant misinformation. Governments and tech bodies are implementing transparency and literacy countermeasures. The new EU AI Act will require all generative AI outputs (text, images, audio) to be machine-watermarked so users can tell they’re synthetic. Similarly, the Council of Europe’s recent AI convention enforces transparency and oversight on AI systems, including identifying AI-generated content. Such rules help the public distinguish real information from AI fabrications.</p>
+                <ul>
+                <li><strong>Mandatory labeling and provenance:</strong> Legal rules now force AI companies to tag their content. The EU’s law explicitly mandates that AI-generated media be marked in a machine-readable way. These technical requirements (e.g. robust watermarking, metadata standards) ensure that misleading deepfakes or synthetic news can be detected. By making AI content traceable, these measures curb large-scale disinformation campaigns.</li>
+                <li><strong>Media and AI literacy education:</strong> Teach people to critically assess sources and AI’s fallibility. Education systems are moving beyond basic digital skills to include AI literacy (for example, the joint EU/OECD AILit Framework for schools). Public campaigns and school curricula can explain how to spot AI biases or hallucinations. The APA and others urge integrating AI-awareness in learning so that users remain vigilant about AI’s limitations.</li>
+                <li><strong>Robust safety and oversight standards:</strong> Encourage engineering and governance practices that reduce errors. For instance, the U.S. Executive Order on AI directs agencies to use the NIST AI Risk Management Framework for high-impact applications. This means enforcing rigorous testing, human review (especially in critical use cases), and transparent auditing. Tech firms can adopt techniques like retrieval-augmented models and adversarial testing to minimize AI “hallucinations,” and they should avoid training future models on synthetic AI content to prevent a degrading feedback loop.</li>
+                </ul>`,
         },
         {
             title: "Loss of meaning",
@@ -192,19 +228,33 @@ const risks = {
                 <li>Will enough people be able to find meaning in this new world?</li>
                 <li>Assuming we can adapt over time, what pace of transition to the new world could we handle?</li>
                 </ul>`,
-            solutions: ``,
+            solutions: `<p>As AI automates many jobs, people may feel a loss of purpose. Analysts argue for social and economic policies that ensure meaning beyond work. For example, Finland’s basic-income experiment (2017–18) found that while employment didn’t rise, recipients reported significantly higher life satisfaction and well-being. In Austria, a “job guarantee” pilot gave paid work to every long-term unemployed resident, virtually eliminating chronic joblessness while making participants happier, more self-confident, and more connected to their community. These examples show that security and community roles can restore a sense of value.</p>
+                <ul>
+                <li><strong>Universal support and guaranteed work:</strong> Provide financial and social anchors independent of specific jobs. Policies like unconditional basic income or public job guarantees give people a stake and purpose. (The Austrian pilot above, for instance, showed that guaranteed jobs increased participants’ sense of control and meaningful social interaction.) By ensuring everyone has a way to contribute (even if not in private-sector work), these programs prevent an existential void.</li><li><strong>Redistribute work and leisure:</strong> Normalize shorter workweeks to allow more time for creative and family activities. Trials of four-day workweeks (e.g. in Spain) have shown that workers reported better health, less stress, and greater happiness with the extra day off. Societies can adapt by measuring success in well-being (not just GDP), letting people use freed-up time for volunteerism, hobbies or personal development without stigma.</li><li><strong>Lifelong learning and skill-building:</strong> Invest in free education and retraining so people can pursue new, fulfilling roles. Many governments are expanding retraining programs in both high-tech and creative fields. For instance, Finland’s nation-wide “Elements of AI” course (offered free to all citizens) aims to upskill the population in AI basics. By fostering continuous learning in arts, science, and technology, displaced workers can find new passions and civic contributions.</li>
+                <li><strong>Meaningful workplace design:</strong> Ensure remaining jobs emphasize autonomy and impact. Research shows that employees feel purpose when they can learn, make decisions, and see the positive outcomes of their work. Companies can use AI to remove drudgery while letting humans lead on strategy and innovation. Culturally, promoting values like community service, creativity and stewardship helps individuals derive meaning from diverse sources beyond economic productivity.</li>
+                </ul>`,
         },
         {
             title: "Human subjugation",
             risks: `<p>Human dominance in the world is largely due to our intelligence.  Once AI becomes capable of self-improvement and building AI systems itself, it will lead to an 'intelligence explosion' and 'superintelligent' AIs.  It seems quite probable that these superintelligences would then become the dominant force in the world, and humans would be subjugated.</p>
                 <p><b>Best case:</b> The superintelligent AIs will be benevolent and perfectly aligned with human values and goals, creating a better world.  Even then, we will have lost the power of self-determination and will be beholden to the good will of the superintelligences.</p>
                 <p><b>Worst case:</b> The superintelligent AIs quickly decide that the world is better off without humans, and wiping us out is a trivial matter.</p>`,
-            solutions: ``,
+            solutions: `<p>To prevent humans losing autonomy to powerful AI, policymakers advocate strict oversight and alignment measures. On the international stage, binding agreements are emerging: in 2024 the Council of Europe adopted the first global AI treaty (open to non-members) that aims to ensure AI use “respects human rights, the rule of law and democracy”. These commitments complement other frameworks (e.g. EU AI Act, UNESCO’s AI Ethics) that enshrine human dignity and oversight. Such governance seeks to keep ultimate control in human hands as systems become more capable.</p>
+                <ul>
+                <li><strong>Global governance and treaties:</strong> Negotiate international agreements to limit unchecked AI. The Council of Europe’s treaty requires transparency and risk-based oversight on AI, and could be joined by non-EU countries. Proposals like a UN AI safety body or an “AI Geneva Convention” follow similar ideas, aiming to coordinate on issues like non-proliferation of dangerous AI and shared safety standards.</li>
+                <li><strong>Ethical design and human-in-the-loop:</strong> Build AI to preserve human decision authority. The EU AI Act legally mandates that advanced AI systems include human oversight mechanisms. In practice, developers are urged to incorporate “constitutional” constraints (e.g. hard-coded rights), continuous monitoring, and reinforcement learning guided by human values. Adhering to globally recognized AI ethics (such as UNESCO’s principles of human dignity and autonomy) helps ensure AI systems serve humanity rather than control it.</li>
+                <li><strong>Rights and regulatory safeguards:</strong> Strengthen legal protections of autonomy. Examples include laws guaranteeing individuals the right to explanation or human review of significant AI decisions, strict limits on AI surveillance, and data-privacy rules that prevent covert manipulation. Civil society can also advocate for an explicit “right to opt out” of automated systems. By encoding human rights into AI governance, people remain the final arbiter of major life choices.</li>
+                </ul>`,
         },
         {
             title: "Social breakdown",
             risks: `<p>Considering all of the risks listed on this page, at least some level of breakdown in the social order starts to seem somewhat inevitable.</p>`,
-            solutions: ``,
+            solutions: `<p>Broad social risks like mass unemployment and loss of trust call for multifaceted solutions. Economists suggest redistributing AI’s gains: for instance, taxing automation (so-called “robot taxes”) can fund retraining and social welfare. Technologists emphasize accountability: the U.S. government’s 2023 Executive Order on AI set new standards for “safe, secure, and trustworthy” AI – including privacy protections, equity for workers and consumers, and mandatory risk management for high-stakes systems. Such measures help maintain institutional trust as society adapts to AI.</p>
+                <ul>
+                <li><strong>Expanded social safety nets:</strong> Update welfare, unemployment and retraining programs for an AI economy. This might involve generous unemployment insurance, universal benefits, or public employment programs (as in the Austrian pilot above). International bodies note that policy focus should shift to human and environmental well-being (not just GDP growth) as AI changes the labor market. By preparing people financially and socially, governments can avert the despair that follows job loss.</li>
+                <li><strong>Trustworthy AI policies:</strong> Build transparency and accountability to prevent erosion of trust. The Biden administration’s policies (for example EO 14110) require companies to conduct independent audits, bias assessments, and to protect civil rights and privacy. Similar regulatory efforts (like the EU’s rules on high-risk AI) compel developers to publish “impact statements” and remedy harms. These oversight frameworks reassure the public that AI is aligned with democratic values.</li>
+                <li><strong>Community and human connection:</strong> Counter social isolation with engagement initiatives. Invest in community centers, support networks, and programs that encourage face-to-face interaction (e.g. volunteering, civic tech projects, arts and sports programs). Technology can aid this (e.g. telehealth services connecting patients with human counselors), but should be used to enhance social ties rather than replace them. Fostering empathy and collective purpose at the local level helps buffer society against the atomizing effects of AI.</li>
+                </ul>`,
         },
     ],
 };
@@ -250,6 +300,7 @@ const challenges = {
             solutions: `<ul>
                 <li>The Future of Life Institute produces many <a href="https://futureoflife.org/fli-open-letters/" target="_blank"><b>open letters / petitions</b></a> to help raise concerns and lobby for regulation</li>
                 <li><a href="https://www.un.org/sites/un2.un.org/files/un_ai_advisory_body_governing_ai_for_humanity_interim_report.pdf" target="_blank"><b>Governing AI for humanity</b></a> - Interim report of the UN AI Advisory Body</li> 
+                <li>G7 Hiroshima Process (2023) – G7 leaders endorsed international guiding principles and a code of conduct for organizations developing advanced AI</li>
                 </ul>`,
         },
         {
@@ -263,6 +314,8 @@ const challenges = {
                 </ul>`,
             solutions: `<ul>
                 <li><a href="https://cleverhans-lab.github.io/" target="_blank"><b>CleverHans</b></a> is an open source adversarial training tool to improve the security and robustness of AI systems</li>
+                <li>Develop shared threat intelligence and best practices across industry and government</li>
+                <li>Implement strict controls on AI model releases (e.g. staged rollouts, risk assessments) and monitoring for abuse</li>
                 </ul>`,
         },
         {
@@ -302,6 +355,9 @@ const challenges = {
                 <p><a href="https://royalsociety.org/-/media/policy/projects/explainable-ai/AI-and-interpretability-policy-briefing.pdf" target="_blank"><b>Explainable AI: the basics</b> - The Royal Society</a></p>`,
             solutions: `<ul>
                 <li><a href="https://interpret.ml/" target="_blank"><b>Interpret.ml</b></a> is an open source toolkit to help understand models and enable responsible machine learning</li>
+                <li>Techniques like feature visualization, attention mapping, and surrogate models (as studied by the <a href="https://royalsociety.org/topics-policy/projects/machine-learning/">Royal Society</a>)</li>
+                <li>Ongoing research in interpretable ML and "mechanistic" understanding of networks</li>
+                <li>Regulatory requirements for explainability in high-risk systems</li>
                 </ul>`,
         },
         {
@@ -314,6 +370,9 @@ const challenges = {
             solutions: `<ul>
                 <li><a href="https://www.anthropic.com/news/claudes-constitution" target="_blank"><b>Constitutional AI</b></a> is an approach used in some AI systems (notably Anthropic's 'Claude' chatbot) to check output against a 'constitution' (set of rules), representing human values</li>
                 <li><a href="https://sagroups.ieee.org/global-initiative/wp-content/uploads/sites/542/2023/01/ead1e.pdf" target="_blank"><b>Ethically aligned design</b></a> - IEEE Standards Association</li>
+                <li>Reinforcement Learning from Human Feedback (RLHF) and iterative fine-tuning of models to human preferences</li>
+                <li>Developing and applying AI safety research (via OpenAI, Anthropic, FHI, ALIGN, etc.) to test and improve alignment</li>
+                <li>International standards for AI ethics (e.g. IEEE or UNESCO guidelines, as in 2024 recommendations)</li>
                 </ul>`,
         },
         {

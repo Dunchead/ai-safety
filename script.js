@@ -99,7 +99,7 @@ const risks = {
                 <p>Job displacement caused by AI is more concerning than historical technological unemployment because of the probability of increasing net job losses.  There may be new jobs created in the short term, but as AI capabilities increase these may also quickly be lost.  This presents significant risk for the very foundations of global society.</p>
                 <h4>Links</h4>
                 <p><a href="https://assets.publishing.service.gov.uk/media/615d9a1ad3bf7f55fa92694a/impact-of-ai-on-jobs.pdf" target="_blank"><b>The Potential Impact of Artificial Intelligence on UK Employment and the Demand for Skills</b> - PwC (2023)</a></p>
-                <p><a href="https://www.pwc.com/gx/en/issues/artificial-intelligence/publications/ai-jobs-barometer.html" target="_blank"><b>The Fearless Future: 2025 Global AI Jobs Barometer</b> - PwC (June 2025)</a></p>`,
+                <p><a href="https://www.pwc.com/gx/en/issues/artificial-intelligence/ai-jobs-barometer.html" target="_blank"><b>The Fearless Future: 2025 Global AI Jobs Barometer</b> - PwC (June 2025)</a></p>`,
             solutions: `<ul>
                 <li>Explore policies to equitably share AI-driven productivity gains, such as universal basic income or "robot taxes"</li>
                 <li>Invest in education, reskilling and job creation programs to help workers transition to new roles</li>

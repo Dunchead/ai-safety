@@ -397,7 +397,7 @@ const challenges = {
                 <ul>
                 <li><b>'Jailbreaking'</b> or other adversarial attacks, whereby an attacker attempts to bypass guardrails</li>
                 <li><b>Reverse engineering or theft</b> of the models/weights themselves</li>
-                <li><b>Data poisoning</b> - where the dataset an AI is trained on is injected with malicious data to maniuplate the behaviour of the system</li>
+                <li><b>Data poisoning</b> - where the dataset an AI is trained on is injected with malicious data to manipulate the behaviour of the system</li>
                 <li><b>Privacy</b> - training datasets may contain sensitive data and centralise this on servers making it vulnerable to theft or discovery by querying the model</li>
                 </ul>`,
             solutions: `<ul>
